@@ -1,0 +1,27 @@
+{
+  "name": "asciify",
+  "version": "0.0.1",
+  "description": "Converts images to ASCII",
+  "author": "Albert Callarisa Roca",
+  "license": "MIT",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dolaterio/asciify.git"
+  },
+  "keywords": [
+    "graphicsmagick",
+    "image",
+    "resize"
+  ],
+  "bugs": {
+    "url": "https://github.com/dolaterio/asciify/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.0.14",
+    "gm": "1.16.0",
+    "mime": "^1.2.11",
+    "pngjs": "^0.4.0",
+    "request": "^2.40.0"
+  }
+}
