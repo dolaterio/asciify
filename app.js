@@ -6,7 +6,7 @@ var path = require('path'),
 var url = process.argv[2];
 
 if(!url){
-  console.error("Usage: node resizer.js WIDTH HEIGHT URL DESTINATION")
+  console.error("Usage: node resizer.js URL")
   process.exit(1)
 }
 
