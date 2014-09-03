@@ -18,9 +18,7 @@
     "url": "https://github.com/dolaterio/asciify/issues"
   },
   "dependencies": {
-    "aws-sdk": "^2.0.14",
     "gm": "1.16.0",
-    "mime": "^1.2.11",
     "pngjs": "^0.4.0",
     "request": "^2.40.0"
   }
