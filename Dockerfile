@@ -8,9 +8,9 @@ RUN apt-get install -y --no-install-recommends nodejs npm nodejs-legacy graphics
 ENV PATH node_modules/.bin:$PATH
 WORKDIR /opt/
 
-ADD app.js /opt/app.js
 ADD package.json /opt/package.json
-
 RUN npm install
+
+ADD app.js /opt/app.js
 
 ENTRYPOINT ["node", "app.js"]
