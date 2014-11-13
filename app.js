@@ -24,7 +24,7 @@ process.stdin.on('end', function() {
   }, function(err, res, body) {
     gm(body)
     .setFormat("png")
-    .resize(170, 70, "!")
+    .resize(100, 42, "!")
     .type("Grayscale")
     .stream(function (err, stdout, stderr) {
       stdout
